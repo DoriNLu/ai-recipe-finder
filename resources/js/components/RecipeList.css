@@ -1,0 +1,38 @@
+.recipe-card {
+  width: 384px;
+  height: 88px;
+  border-radius: 16px;
+  background-color: #E0E0E0;
+  box-shadow:
+    4px 4px 10px rgba(197, 197, 197, 0.9),
+    -4px -4px 8px rgba(251, 251, 251, 0.9);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.image-box {
+  width: 88px;
+  height: 88px;
+  background-color: #E3E3E3;
+  border-radius: 16px 0px 0px 16px;
+  font-size: 32px;
+}
+
+
+.favorite-icon {
+  width: 48px;
+  font-size: 22px;
+  color: #bbb;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.favorite-icon.active {
+  color: #65558F;
+}

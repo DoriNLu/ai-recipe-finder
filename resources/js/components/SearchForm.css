@@ -1,0 +1,42 @@
+.search-input {
+     color: #000 !important;
+  border-radius: 9999px;
+  padding-left: 20px;
+  padding-right: 44px; /* spațiu pentru X */
+  height: 48px;
+  width: 375px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.clear-button {
+  position: absolute;
+  top: 50%;
+  left: 330px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 35px !important;
+  color: #999;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+
+.search-action-icon {
+  position: absolute;
+  top: 50%;
+  left: 330px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #999;
+  line-height: 1;
+}
+
+.clear-button:hover {
+  color: #333;
+  
+}
+
