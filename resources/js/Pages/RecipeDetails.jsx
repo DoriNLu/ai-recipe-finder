@@ -16,7 +16,7 @@ export default function RecipeDetails({ recipe }) {
   return (
     <div className="container-md py-5 px-3">
       <div className="row">
-        {/* Imaginea: fixă pe desktop */}
+      
         <div className="col-md-4 mb-4 mb-md-0">
           <div
             className="position-sticky top-0"
@@ -30,13 +30,13 @@ export default function RecipeDetails({ recipe }) {
             />
 
             <div className="d-flex justify-content-between align-items-center mb-4">
-              {/* Titlu și timp */}
+             
               <div>
                 <h2 className="mb-1">{recipe.title}</h2>
                 <p className="text-muted mb-0">{recipe.time} minutes</p>
               </div>
 
-              {/* Inimioară simplă, fără chenar */}
+             
               <button
                 onClick={() => toggleFavorite(recipe)}
                 title="Toggle Favorite"
